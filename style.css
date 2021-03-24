@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: black;
+}
+
+.container{
+    color: white;
+    display: flexbox;
+    flex-direction: row;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 100vw;
+}
+
+.content__title{
+    font-size: 4rem;
+    margin-top: 10px;
+    margin-bottom: 3vh;
+}
+
+.image__container{
+    width: 100vw;
+    height: 15vh;
+    border-radius: 5px;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container__content{
+    margin-left: 1vw;
+    width: 80vw;
+}
+
+.content__text{
+    font-size: 1.3rem;
+    margin-bottom: 3vh;
+}
+
+.content__read-more{
+    cursor: pointer;
+    padding: 1vh 3vw;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    transition-duration: .3s;
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+
+.content__read-more:hover{
+    color: black;
+    background: white;
+    width: 80%;
+}
